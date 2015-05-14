@@ -1,0 +1,159 @@
+/*fonts*/
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('fonts/KaushanScript-Regular.otf');
+}
+
+@font-face {
+	font-family: 'blackjack';
+	src: url('fonts/black_jack.ttf');
+}
+
+@font-face {
+	font-family: 'proxima nova regular';
+	src: url('fonts/ProximaNova/ProximaNovaCond-Regular.otf');
+}
+
+@font-face{
+	font-family: 'proxima nova light';
+	src : url('fonts/ProximaNova/ProximaNovaCond-Light.otf');
+}
+
+@font-face{
+	font-family: 'ProximaNova Bold';
+	src : url('fonts/ProximaNova/ProximaNovaCond-SemiboldIt.otf');
+}
+
+
+
+
+/*custom made row with default height and background color*/
+.row-custom
+{
+
+	height:100vh;
+	background-color:#64c3ec;
+	overflow: hidden;
+}
+/*first row*/
+.first
+{
+	
+	background-color:#64c3ec;
+}
+.second
+{
+	background-color:#f4f4f4;
+}
+#logo
+{
+	background-color:white;
+	width:70px;
+	height:70px;
+	padding:10px;
+	padding-top:0px;
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(38,176,230,1);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(38,176,230,1);
+	box-shadow: 10px 10px 0px 0px rgba(38,176,230,1);
+}
+#logo>.text{
+	font-family: 'Kaushan Script';
+	font-size:50px;
+	color:#0da9e5;
+}
+#iphone
+{
+	position:absolute;
+	bottom:-200px;
+}
+
+#header{
+	display:block;
+	float:right;
+}
+#header >.text
+{
+	font-family: 'blackjack';
+	font-size: 70px;
+	color:White;
+	display:block;
+	text-align:right;
+}
+#header >.text2
+{
+	font-size:35px;
+	color:white;
+	letter-spacing: 5px;
+	font-family:'proxima nova light';
+}
+
+#ipad
+{
+	position:absolute;
+	right:-100px;
+	bottom:-100px;
+}
+.bold
+{
+
+	font-size:30px;
+	color:white;
+	font-family: ProximaNova Bold;																
+}
+
+.btn-outline {
+	background-color: transparent;
+	color: inherit;
+	transition: all .5s;
+	border:1px solid white;
+	color:white;
+	font-size:15px;
+	text-transform: uppercase;
+	font-family: ProximaNova Bold;
+}
+
+#header2{
+	margin-top:150px;	
+}
+#header2>.text
+{
+	color:#545454;
+	font-size:40px;
+	font-family:'proxima nova light';
+	letter-spacing: 2px
+}
+
+#header2>.text2
+{
+	font-size:16px;
+	font-family:'proxima nova regular';
+}
+
+.margin-top-10
+{
+	margin-top:10px;
+}
+
+.margin-top-20
+{
+	margin-top:20px;
+}
+
+
+.margin-top-30
+{
+	margin-top:30px;
+}
+
+
+.margin-top-40
+{
+	margin-top:40px;
+}
+
+
+.margin-top-50
+{
+	margin-top:50px;
+}
